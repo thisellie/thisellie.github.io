@@ -1,0 +1,51 @@
+#certifications {
+    background-color: var(--background-color);
+    padding: 50px 0;
+}
+
+#certifications h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#certifications .card {
+    border: 1px solid var(--secondary-background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--secondary-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#certifications .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#certifications .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+#certifications .card-subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary-color);
+}
+
+#certifications .card-text {
+    font-size: 0.875rem;
+    color: var(--text-color);
+}
+
+#certifications .card-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#certifications .card-link:hover {
+    text-decoration: underline;
+}
+
+#certifications .text-muted {
+    font-size: 0.75rem;
+    color: var(--text-secondary-color);
+}
