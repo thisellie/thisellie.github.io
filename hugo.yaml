@@ -113,7 +113,7 @@ params:
     stickyNavBar:
       enable : true
       showOnScrollUp : true
-    enableSeparator: true
+    enableSeparator: false
     menus:
       disableAbout: false
       disableExperience: true
@@ -129,7 +129,7 @@ params:
     title: "Aaron Suarez."
     subtitle: "I build some websites"
     content: "I am a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: images/hero.jpeg
+    image: images/me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -150,7 +150,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "images/me.png"
+    image: "images/cat.jpeg"
     content: |-
       I am an Information Technology student with a passion for web development and hardware. I have a background in networking and system administration. Plays a lot of video games and love cats.
 
@@ -239,7 +239,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -285,11 +285,11 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Projects"
     items:
       - title: PatingGames
         content: A dynamic game portal featuring HTML5 games. This portal offers a wide variety of games that cater to different interests and age groups.
-        image: /images/projects/patinggames.png
+        image: images/projects/patinggames.png
         featured:
           name: Demo
           link: https://patinggames.000webhostapp.com/
@@ -304,7 +304,7 @@ params:
 
       - title: ByteQuiz
         content: An educational android multiplayer game about computer fundamentals.
-        image: /images/projects/bytequiz.png
+        image: images/projects/bytequiz.png
         featured:
           name: Play
           link: https://thisellie.itch.io/bytequiz
@@ -318,7 +318,7 @@ params:
 
       - title: Weather Application
         content: A weather application for using APIs and asynchronous function which includes search bar for inputting cities for weather forecast.
-        image: /images/projects/weather.png
+        image: images/projects/weather.png
         featured:
           name: Demo
           link: https://thisellie.github.io/weather-app/
@@ -343,7 +343,7 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Get In Touch"
     content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     btnName: Mail me
     btnLink: mailto:ar.suarez.ph@gmail.com
